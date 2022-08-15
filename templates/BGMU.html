@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MixuPay</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+
+    <div class="main-block">
+        <div class="flex-rw" style="height: 100%; justify-content: space-between;">
+            <div class="max-height flex-cl" style="justify-content: center; min-width: 50%; padding-left: 5%">
+                <div class="lg-text">Заберите свой кэшбэк</div>
+                <div class="md-text">
+                    Оплачивайте мобильную связь<br>
+                    через SberPay, личный кабинет или<br>
+                    приложение Mixu.ru и получайте 3% кэшбэк
+                </div>
+                <div class="flex-cl" style=";">
+                    <img class="img-button" onclick="window.location = 'https://online.sberbank.ru/CSAFront/payOrderPaymentLogin.do?ReqId=1410151960647&ST=ufs.billing'" src="/static/Assets/sberpay оплата.png">
+                    <img class="img-button" onclick="window.location ='https://lk.mixu.ru'" style="width: 300px" src="/static/Assets/другие способы оплаты.png">
+                </div>
+            </div>
+            <div class="flex-cl" style="justify-content: space-between; align-items: end; position: relative">
+                <img class="img-main" src="/static/Assets/рука.png">
+                <img style="width: 75px; padding-right: 10%; padding-top: 10%" src="/static/Assets/логотип переход на сайт.png">
+                <img style="width: 250px; margin-left: -90%" src="/static/Assets/ссылка на приложения Mixu Для ios android одна ссылка.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+
+
+.html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Assets/рука.png");
+}
+.flex-cl{
+    display: flex;
+    flex-direction: column;
+}
+.flex-rw{
+    display: flex;
+    flex-direction: row;
+}
+.max-height{
+    height: 100%;
+}
+.main-column{
+    align-items: center;
+}
+.main-block{
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+    height: 620px;
+    padding: 10px 20px;
+    width: 1000px;
+}
+.lg-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 0.5em;
+}
+.md-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.img-button{
+    margin-top: 2em;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img-main{
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    top: 130px;
+    z-index: -1;
+    left: -240px;
+}
+.img-button:hover {
+   transform: scale(1.1);
+}
